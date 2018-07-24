@@ -1,5 +1,9 @@
 import styled from 'styled-components'
 
+export const ArticleContainer = styled.div`
+  padding: 4px;
+`
+
 export const ArticleHeader = styled.div`
   padding: 24px;
   margin: 16px;
@@ -27,6 +31,16 @@ export const ExamplesTable = styled.table`
   width: 100%;
 `
 
+export const SectionTitle = styled.h2`
+  margin-bottom: 32px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid black;
+`
+
+export const SubsectionTitle = styled.h3`
+  margin-bottom: 32px;
+`
+
 export const ExamplePair = styled.tr`
   display: block;
   margin-bottom: 16px;
@@ -51,7 +65,7 @@ export const ButtonRow = styled.tr`
 
 export const ButtonCell = styled.td`
   display: inline-block;
-  width: 48%;
+  width: 50%;
   box-sizing: border-box;
 `
 
@@ -59,10 +73,22 @@ export const PlayButton = styled.button`
   color: #fff;
   background-color: #4056F4;
   padding: 12px;
-  width: 100%;
+  width: 95%;
   font-size: 16px;
   border-radius: 8px;
   border: none;
+  float: left;
+`
+
+export const SlowButton = styled.button`
+  color: #fff;
+  background-color: #4056F4;
+  padding: 12px;
+  width: 95%;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  float: right;
 `
 
 export const ButtonIcon = styled.i`

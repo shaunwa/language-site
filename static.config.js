@@ -28,7 +28,7 @@ export default {
         getData: () => ({
           posts,
         }),
-        children: posts.map(post => ({
+        children: posts.map((post) => ({
           path: `/post/${post.id}`,
           component: 'src/containers/Post',
           getData: () => ({

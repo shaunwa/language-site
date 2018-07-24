@@ -1,13 +1,16 @@
-import { withRouteData } from 'react-static'
-import { h } from 'react-hyperscript-helpers'
+import { withRouteData } from 'react-static';
+import { h } from 'react-hyperscript-helpers';
 
-import { Icon } from './Icon'
+import { Icon } from './Icon';
 import {
+  ArticleContainer,
   ArticleHeader,
   ArticleHeaderText,
   EpisodeNumberText,
   ArticleContent,
   ExamplesTable,
+  SectionTitle,
+  SubsectionTitle,
   ExamplePair,
   EnglishExample,
   SpanishExample,
@@ -15,49 +18,12 @@ import {
   ButtonCell,
   PlayButton,
   ButtonText,
-} from './ArticleStyles'
+} from './ArticleStyles';
 
 const Article = ({ article }) => {
-  const { title, articleNumber, examples } = article
-  const exampleElements = examples.map((example, key) => {
-    if (example.sectionTitle) {
-      return h('h2', example.sectionTitle)
-    }
-    if (example.subsectionTitle) {
-      return h('h3', example.subsectionTitle)
-    }
-    return [
-      h(ExamplePair, { key }, [
-        h(EnglishExample, example.english),
-        h(SpanishExample, example.spanish),
-      ]),
-      h(ButtonRow, [
-        h(ButtonCell, [
-          h(PlayButton, [
-            h(Icon, {
-              name: 'play',
-              style: {
-                float: 'left',
-              },
-            }),
-            h(ButtonText, 'Play'),
-          ]),
-        ]),
-        h(ButtonCell, [
-          h(PlayButton, [
-            h(Icon, {
-              name: 'step-forward',
-              style: {
-                float: 'left',
-              },
-            }),
-            h(ButtonText, 'Slow'),
-          ]),
-        ]),
-      ]),
-    ]
-  })
-  return h('div', [
+  const { title, articleNumber, examples } = article;
+  const exampleElements = examplesToElements(examples);
+  return h(ArticleContainer, [
     h(ArticleHeader, [
       h(EpisodeNumberText, `EPISODIO ${articleNumber}`),
       h(ArticleHeaderText, `${title}`),
@@ -65,7 +31,54 @@ const Article = ({ article }) => {
     h(ExamplesTable, [
       h(ArticleContent, [...exampleElements]),
     ]),
-  ])
+  ]);
 }
 
-export default withRouteData(Article)
+function createExampleSection({ example, key }) {
+  return [
+    h(ExamplePair, { key }, [
+      h(EnglishExample, example.english),
+      h(SpanishExample, example.spanish),
+    ]),
+    h(ButtonRow, [
+      h(ButtonCell, [
+        h(PlayButton, [
+          h(Icon, {
+            name: 'play',
+            style: {
+              float: 'left',
+            },
+          }),
+          h(ButtonText, 'Play'),
+        ]),
+      ]),
+      h(ButtonCell, [
+        h(PlayButton, [
+          h(Icon, {
+            name: 'step-forward',
+            style: {
+              float: 'left',
+            },
+          }),
+          h(ButtonText, 'Slow'),
+        ]),
+      ]),
+    ]),
+  ];
+}
+
+function examplesToElements(examples) {
+  return examples.map((example, key) => {
+    if (example.sectionTitle) {
+      return h(SectionTitle, example.sectionTitle);
+    }
+
+    if (example.subsectionTitle) {
+      return h(SubsectionTitle, example.subsectionTitle);
+    }
+
+    return createExampleSection({ example, key })
+  });
+}
+
+export default withRouteData(Article);
