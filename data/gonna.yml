@@ -5,7 +5,7 @@ examples:
 -
   sectionTitle: "Gonna"
 -
-  english: "I’m gonna leave at eight o’clock."
+  english: "I’m <b>gonna</b> leave at eight o’clock."
   spanish: "Voy a irme a las ocho."
   audio: "gonna-01.mp3"
 -
@@ -53,7 +53,76 @@ examples:
 -
   sectionTitle: "Wanna"
 -
-  english: "I think that I'm a horse"
-  spanish: "Creo que soy un caballo"
+  english: "I wanna get married before I’m old."
+  spanish: "Quiero casarme antes de ser viejo."
+-
+  english: "I never wanna be rich."
+  spanish: "Nunca quiero ser rico."
+-
+  english: "I can see you don’t wanna kiss me."
+  spanish: "Puedo ver que quieres besarme."
+-
+  english: "(Do you) Wanna come with me?"
+  spanish: "Quieres venir conmigo?"
+-
+  english: "(Do you) Wanna eat something before we leave?"
+  spanish: "Quieres comer algo antes de irnos?"
+-
+  english: "He wants to tell you a secret.*"
+  spanish: "Quiere contarte un secreto."
+  note: "* nota que no se cambia con “he” o “she” a causa del “s” extra."
+-
+  english: "We didn’t wanna make you cry."
+  spanish: "No queríamos hacerte llorar!"
+-
+  english: "They wanna know why you’re so late."
+  spanish: "Quieren saber por qué tardaste tanto."
+-
+  subsectionTitle: "Negatives"
+-
+  english: "I don’t wanna know."
+  spanish: "No quiero saber."
+-
+  english: "You don’t wanna watch this movie, do you?"
+  spanish: "No quieres ver esta película, verdad?"
+-
+  english: "She doesn’t wanna hug you.*"
+  spanish: "No quiere abrazarte."
+  note: `* En este caso, “wanna” sí se usa, porque con “doesn’t” la forma correcta sería “He doesn’t want to...”, sin el “s” extra.`
+-
+  english: "We don’t wanna go to that restaurant."
+  spanish: "No queremos ir a ese restaurante."
+-
+  english: "They don’t wanna hear our music."
+  spanish: "No quieren escuchar nuestra música."
 -
   sectionTitle: "Gotta"
+-
+  english: "I’ve gotta go to work now."
+  spanish: "Tengo que ir al trabajo ahora."
+-
+  english: "I’ve gotta know if she loves me or not."
+  spanish: "Tengo que saber si me ama o no."
+-
+  english: "You’ve gotta remember to wake up at 7 tomorrow."
+  spanish: "Tienes que recordar despertarte a las 7 mañana."
+-
+  english: "He’s gotta find a girlfriend."
+  spanish: "Tiene que encontrar novia."
+-
+  english: "We’ve gotta go back in time to save him."
+  spanish: "Tenemos que volver en el tiempo para salvarlo."
+-
+  english: "They’ve gotta be crazy."
+  spanish: "Tienen que ser locos."
+-
+  subsectionTitle: `Negatives (generalmente se usa “have to” en vez de “got to” con el negativo”)`
+-
+  english: "I don’t have to tell you anything."
+  spanish: "No tengo que decirte nada."
+-
+  english: "You don’t have to lie to me."
+  spanish: "No tienes que mentirme."
+-
+  english: "He doesn’t have to leave if he doesn’t want to."
+  spanish: "No tiene que irse si no quiere."

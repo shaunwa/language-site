@@ -3,23 +3,35 @@ import { Router, Link } from 'react-static'
 import { hot } from 'react-hot-loader'
 import { h } from 'react-hyperscript-helpers';
 import styled from 'styled-components';
-//
 import Routes from 'react-static-routes';
 
 import './app.css'
 
-const NavBar = styled.div``;
+const NavBar = styled.div`
+  background-color: #4056F4;
+  margin: auto;
+  text-align: center;
+
+  a:link, a:visited, a:hover, a:active {
+    display: inline-block;
+    color: #fff;
+    padding: 16px;
+    font-weight: 400;
+    text-decoration: none;
+  }
+`;
+
 const Content = styled.div``;
 
 const App = () => {
   return h(Router, [
     h('div', [
-      h('nav', [
+      h(NavBar, [
         h(Link, { to: '/', exact: true }, 'Home'),
         h(Link, { to: '/article' }, 'Articles'),
         h(Link, { to: '/about' }, 'About'),
       ]),
-      h('div', { className: 'content' }, [h(Routes)]),
+      h(Content, { className: 'content' }, [h(Routes)]),
     ])
   ])
 }
