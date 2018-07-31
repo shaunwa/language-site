@@ -20,6 +20,8 @@ examples:
   english: "I texted her an hour ago, but I haven’t _gotten_ a response yet."
   spanish: "La envié un mensaje hace una hora, pero todavía no he recibido respuesta."
 -
+  signupForm: true
+-
   sectionTitle: "Poder"
 -
   english: "I _get_ to relax all day tomorrow."
@@ -62,6 +64,8 @@ examples:
   english: "I’m going to _get_ some bananas."
   spanish: "Voy a comprar unas bananas."
 -
+  signupForm: true
+-
   sectionTitle: "Llegar"
 -
   english: "I usually _get_ to the office at nine."
@@ -95,6 +99,8 @@ examples:
 -
   english: "I heard that they’ve _got_ a house now."
   spanish: "He oído que tienen una casa ahora."
+-
+  signupForm: true
 -
   sectionTitle: "Tener que"
 -
@@ -144,3 +150,5 @@ examples:
 -
   english: "I _got_ teased in high school because of my nose."
   spanish: "Se burlaban de mí en la secundaria a causa de mi nariz."
+-
+  signupForm: true

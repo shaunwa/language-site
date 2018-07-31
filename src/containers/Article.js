@@ -1,8 +1,6 @@
 import { withRouteData } from 'react-static';
 import { h } from 'react-hyperscript-helpers';
 import ReactMarkdown from 'react-markdown';
-import ScriptTag from 'react-script-tag';
-import styled from 'styled-components';
 
 import { Icon } from './Icon';
 import {
@@ -23,12 +21,12 @@ import {
   PlayButton,
   ButtonText,
 } from './ArticleStyles';
+import { SignupForm } from './SignupForm';
 
 const Article = ({ article }) => {
   const { title, articleNumber, examples } = article;
   const exampleElements = examplesToElements(examples);
   return h(ArticleContainer, [
-    h(ScriptTag, { async: false, src: 'https://f.convertkit.com/aac6e66ea3/533d953c7f.js', 'data-uid': 'aac6e66ea3' }),
     h(ArticleHeader, [
       h(EpisodeNumberText, `EPISODIO ${articleNumber}`),
       h(ArticleHeaderText, `${title}`),
@@ -85,6 +83,10 @@ function examplesToElements(examples) {
       return h(ExampleRow, [
         h(SubsectionTitle, example.subsectionTitle),
       ]);
+    }
+
+    if (example.signupForm) {
+      return h(SignupForm);
     }
 
     return createExampleSection({ example, key })

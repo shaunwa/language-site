@@ -16,10 +16,11 @@ export default {
     // The real code
     const dataFiles = await readdir(DATA_PATH)
 
-    const articleRoutes = dataFiles.map((fileName) => {
-      const article = yaml.load(`${DATA_PATH}/${fileName}`)
+    const articles = dataFiles.map((fileName) => yaml.load(`${DATA_PATH}/${fileName}`));
+
+    const articleRoutes = articles.map((article) => {
       return {
-        path: `/articles${article.permalink}`,
+        path: `/${article.permalink}`,
         component: 'src/containers/Article',
         getData: () => ({ article }),
       }
@@ -35,18 +36,12 @@ export default {
         component: 'src/containers/About',
       },
       {
-        path: '/blog',
+        path: '/articles',
         component: 'src/containers/Blog',
         getData: () => ({
-          posts,
+          articles,
         }),
-        children: posts.map((post) => ({
-          path: `/post/${post.id}`,
-          component: 'src/containers/Post',
-          getData: () => ({
-            post,
-          }),
-        })),
+        children: articleRoutes,
       },
       {
         is404: true,
