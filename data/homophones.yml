@@ -5,81 +5,101 @@ examples:
 -
   sectionTitle: "Ad/Add"
 -
-  english: "I saw an ad in the newspaper."
+  english: "I saw an _ad_ in the newspaper."
   spanish: "Vi un anuncio en el periódico."
 -
-  english: "Oh my God, look at this swimsuit ad."
+  english: "Oh my God, look at this swimsuit _ad_."
   spanish: "Oh por Dios, mira este anuncio de trajes de baño."
 -
-  english: "Why do magazines have so many ads?"
+  english: "Why do magazines have so many _ads_?"
   spanish: "Por qué las revistas tienen tantos anuncios?"
-
-
-You have to add more salt. - Necesitas añadir más sal.
-
-Add me to your list of friends. - Añádeme a tu lista de amigos.
-
-She adds so much happiness to my life. - Ella añade tanta felicidad a mi vida.
-
-
-Air/heir
-
-I love being outside in the fresh air. - Me encanta estar fuera en el aire fresco.
-
-The air is so hot and humid in here. - El aire está tan caliente y húmedo aquí dentro.
-
-Humans need air, water, and food to survive. - Los humanos necesitamos aire, agua, y alimento para sobrevivir.
-
-Prince Charles is heir to the British throne. - El príncipe Charles es heredero al trono británico.
-
-The king died without leaving heirs. - El rey murió sin dejar herederos.
-
-He doesn’t need to work, he’s heir to a huge fortune. - No necesita trabajar, es heredero a una fortuna enorme.
-
-
-Already/all ready
-
-The police are already on their way. - La policía ya están de camino.
-
-We’re already awake. - Ya estamos despiertos.
-
-You finished the test already? - Ya terminaste la prueba?
-
-
-The pizzas are all ready to be baked. - Las pizzas están todas listas para cocinar.
-
-I’m all ready to leave. - Estoy completamente listo para irme.
-
-Are we all ready for this? - Estamos todos listos para esto?
-
-
-Aunt/ant
-
-My Aunt Diane wants to meet you - Mi tía Diane quiere conocerte.
-
-I stayed at my aunt and uncle’s house when I was in college* - Me quedaba en casa de mis tíos cuando estaba en la universidad. (Nota que “tíos” no se traduce con una sola palabra en inglés, se dice “aunt and uncle”)
-
-How many aunts do you have? - Cuántas tías tienes?
-
-
-You just stepped on an ant. - Acabas de pisar a una hormiga.
-
-An ant can lift five-hundred times its body weight. - Una hormiga puede levantar quinientas veces su peso corporal.
-
-Yuck! Someone dropped food and now it’s covered in ants. - Qué asco! Alguien dejó caer la comida y ahora está cubierta de hormigas.
-
-
-Ate/Eight
-
-I ate so much food in Paris. - Comí tanta comida en París.
-
-He ate a cheeseburger in one bite. - Comió un cheeseburger en de un bocado.
-
-You’re hungry again? But we just ate! - Otra vez tienes hambre? Pero acabamos de comer!
-
-
-There are eight people in my family. - Hay ocho personas en mi familia.
-
-I just won eight million dollars! - Acabo de ganar ocho millón de dólares!
-
-Let’s go home at eight o’clock. - Vámonos a casa a las ocho.
+-
+  english: "You have to _add_ more salt."
+  spanish: "Necesitas añadir más sal."
+-
+  english: "_Add_ me to your list of friends."
+  spanish: "Añádeme a tu lista de amigos."
+-
+  english: "She _adds_ so much happiness to my life."
+  spanish: "Ella añade tanta felicidad a mi vida."
+-
+  sectionTitle: "Air/heir"
+-
+  english: "I love being outside in the fresh _air_."
+  spanish: "Me encanta estar fuera en el aire fresco."
+-
+  english: "The _air_ is so hot and humid in here."
+  spanish: "El aire está tan caliente y húmedo aquí dentro."
+-
+  english: "Humans need _air_, water, and food to survive."
+  spanish: "Los humanos necesitamos aire, agua, y alimento para sobrevivir."
+-
+  english: "Prince Charles is _heir_ to the British throne."
+  spanish: "El príncipe Charles es heredero al trono británico."
+-
+  english: "The king died without leaving _heirs_."
+  spanish: "El rey murió sin dejar herederos."
+-
+  english: "He doesn’t need to work, he’s _heir_ to a huge fortune."
+  spanish: "No necesita trabajar, es heredero a una fortuna enorme."
+-
+  sectionTitle: "Already/all ready"
+-
+  english: "The police are _already_ on their way."
+  spanish: "La policía ya están de camino."
+-
+  english: "We’re _already_ awake."
+  spanish: "Ya estamos despiertos."
+-
+  english: "You finished the test _already_?"
+  spanish: "Ya terminaste la prueba?"
+-
+  english: "The pizzas are _all ready_ to be baked."
+  spanish: "Las pizzas están todas listas para cocinar."
+-
+  english: "I’m _all ready_ to leave."
+  spanish: "Estoy completamente listo para irme."
+-
+  english: "Are we _all ready_ for this?"
+  spanish: "Estamos todos listos para esto?"
+-
+  sectionTitle: "Aunt/ant"
+-
+  english: "My _Aunt_ Diane wants to meet you."
+  spanish: "Mi tía Diane quiere conocerte."
+-
+  english: "I stayed at my _aunt_ and uncle’s house when I was in college*"
+  spanish: "Me quedaba en casa de mis tíos cuando estaba en la universidad."
+  note: `(Nota que “tíos” no se traduce con una sola palabra en inglés, se dice “aunt and uncle”)"`
+-
+  english: "How many _aunts_ do you have?"
+  spanish: "Cuántas tías tienes?"
+-
+  english: "You just stepped on an _ant_."
+  spanish: "Acabas de pisar a una hormiga."
+-
+  english: "An _ant_ can lift five-hundred times its body weight."
+  spanish: "Una hormiga puede levantar quinientas veces su peso corporal."
+-
+  english: "Yuck! Someone dropped food and now it’s covered in _ants_."
+  spanish: "Qué asco! Alguien dejó caer la comida y ahora está cubierta de hormigas."
+-
+  sectionTitle: "Ate/Eight"
+-
+  english: "I _ate_ so much food in Paris."
+  spanish: "Comí tanta comida en París."
+-
+  english: "He _ate_ a cheeseburger in one bite."
+  spanish: "Comió un cheeseburger en de un bocado."
+-
+  english: "You’re hungry again? But we just _ate_!"
+  spanish: "Otra vez tienes hambre? Pero acabamos de comer!"
+-
+  english: "There are _eight_ people in my family."
+  spanish: "Hay ocho personas en mi familia."
+-
+  english: "I just won _eight_ million dollars!"
+  spanish: "Acabo de ganar ocho millón de dólares!"
+-
+  english: "Let’s go home at _eight_ o’clock."
+  spanish: "Vámonos a casa a las ocho."

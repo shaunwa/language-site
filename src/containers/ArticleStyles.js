@@ -41,7 +41,7 @@ export const SubsectionTitle = styled.h3`
   margin-bottom: 32px;
 `
 
-export const ExamplePair = styled.tr`
+export const ExampleRow = styled.tr`
   display: block;
   margin-bottom: 16px;
 `
@@ -50,10 +50,23 @@ export const EnglishExample = styled.td`
   display: block;
   margin-bottom: 8px;
   font-weight: bold;
+
+  em {
+    text-decoration: underline;
+    font-style: normal;
+  }
 `
+
 export const SpanishExample = styled.td`
   display: block;
+  margin-bottom: 16px;
 `
+
+export const ExampleNote = styled.td`
+  font-style: italic;
+  margin-bottom: 16px;
+  color: #888;
+`;
 
 export const ButtonRow = styled.tr`
   display: block;
