@@ -6,10 +6,12 @@ export const ArticleContainer = styled.div`
 
 export const ArticleHeader = styled.div`
   padding: 24px;
+  padding-left: 36px;
   margin: 16px;
-  margin-left: -8px;
+  margin-left: -20px;
   border-radius: 8px;
   background-color: #4056F4;
+  box-shadow: 5px 5px 10px #888888;
 `
 
 export const ArticleHeaderText = styled.h1`
@@ -17,7 +19,7 @@ export const ArticleHeaderText = styled.h1`
   margin: 0;
 `
 
-export const EpisodeNumberText = styled.p`
+export const HeaderSubtitleText = styled.p`
   margin: 0;
   margin-bottom: 16px;
   color: #87BFFF;
@@ -80,34 +82,4 @@ export const ButtonCell = styled.td`
   display: inline-block;
   width: 50%;
   box-sizing: border-box;
-`
-
-export const PlayButton = styled.button`
-  color: #fff;
-  background-color: #4056F4;
-  padding: 12px;
-  width: 95%;
-  font-size: 16px;
-  border-radius: 8px;
-  border: none;
-  float: left;
-`
-
-export const SlowButton = styled.button`
-  color: #fff;
-  background-color: #4056F4;
-  padding: 12px;
-  width: 95%;
-  font-size: 16px;
-  border-radius: 8px;
-  border: none;
-  float: right;
-`
-
-export const ButtonIcon = styled.i`
-  float: left;
-`
-
-export const ButtonText = styled.span`
-  margin-left: -14px;
 `

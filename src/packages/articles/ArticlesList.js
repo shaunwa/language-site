@@ -6,7 +6,7 @@ import {
   ArticleContainer,
   ArticleHeader,
   ArticleHeaderText,
-} from './ArticleStyles';
+} from '../ui';
 
 const ArticlesList = styled.div`
   padding: 4px;
@@ -34,8 +34,8 @@ const ArticleDescription = styled.div`
 export default withRouteData(({ articles }) => {
   const articleNames = articles.map((article) => {
     return h(ArticleItem, [
-      h(Link, { to: `/articles${article.permalink}` }, [
-        h(ArticleTitle, `${article.title}`),
+      h(Link, { to: `/articulos${article.permalink}` }, [
+        h(ArticleTitle, `${article.articleNumber} - ${article.title}`),
         h(ArticleDescription, 'We examine the words gonna, wanna and gotta and how they can help you...'),
       ]),
     ])

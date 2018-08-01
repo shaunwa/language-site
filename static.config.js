@@ -1,4 +1,3 @@
-import axios from 'axios'
 import yaml from 'yamljs'
 import { promisify } from 'util'
 import fs from 'fs'
@@ -11,33 +10,42 @@ export default {
     title: 'React Static',
   }),
   getRoutes: async () => {
-    const { data: posts } = await axios.get('https://jsonplaceholder.typicode.com/posts')
-
-    // The real code
     const dataFiles = await readdir(DATA_PATH)
 
     const articles = dataFiles.map((fileName) => yaml.load(`${DATA_PATH}/${fileName}`));
-
-    const articleRoutes = articles.map((article) => {
+    const sortedArticles = articles.sort((one, two) => one.articleNumber < two.articleNumber);
+    const articleRoutes = sortedArticles.map((article, index) => {
+      const nextPath = index === 0 ? null : sortedArticles[index - 1].permalink;
+      const previousPath = index === sortedArticles.length - 1 ? null : sortedArticles[index + 1].permalink;
       return {
         path: `/${article.permalink}`,
-        component: 'src/containers/Article',
-        getData: () => ({ article }),
+        component: 'src/packages/articles/Article',
+        getData: () => ({
+          article: {
+            previousPath,
+            nextPath,
+            ...article,
+          }
+        }),
       }
     })
 
     return [
       {
         path: '/',
-        component: 'src/containers/Home',
+        component: 'src/packages/home/Home',
       },
       {
-        path: '/about',
-        component: 'src/containers/About',
+        path: '/conoceme',
+        component: 'src/packages/about/About',
       },
       {
-        path: '/articles',
-        component: 'src/containers/Blog',
+        path: '/contacta',
+        component: 'src/packages/contact/Contact',
+      },
+      {
+        path: '/articulos',
+        component: 'src/packages/articles/ArticlesList',
         getData: () => ({
           articles,
         }),
@@ -45,7 +53,7 @@ export default {
       },
       {
         is404: true,
-        component: 'src/containers/404',
+        component: 'src/packages/404/404',
       },
       ...articleRoutes,
     ]

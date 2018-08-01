@@ -1,13 +1,12 @@
-import { withRouteData } from 'react-static';
+import { Link, withRouteData } from 'react-static';
 import { h } from 'react-hyperscript-helpers';
 import ReactMarkdown from 'react-markdown';
 
-import { Icon } from './Icon';
 import {
   ArticleContainer,
   ArticleHeader,
   ArticleHeaderText,
-  EpisodeNumberText,
+  HeaderSubtitleText,
   ArticleContent,
   ExamplesTable,
   SectionTitle,
@@ -20,20 +19,23 @@ import {
   ButtonCell,
   PlayButton,
   ButtonText,
-} from './ArticleStyles';
-import { SignupForm } from './SignupForm';
+  Icon,
+  SignupForm,
+} from '../ui';
 
 const Article = ({ article }) => {
-  const { title, articleNumber, examples } = article;
+  const { title, articleNumber, examples, nextPath, previousPath } = article;
   const exampleElements = examplesToElements(examples);
   return h(ArticleContainer, [
     h(ArticleHeader, [
-      h(EpisodeNumberText, `EPISODIO ${articleNumber}`),
+      h(HeaderSubtitleText, `EPISODIO ${articleNumber}`),
       h(ArticleHeaderText, `${title}`),
     ]),
     h(ExamplesTable, [
       h(ArticleContent, [...exampleElements]),
     ]),
+    previousPath ? h(Link, { to: `/articulos${previousPath}` }, 'Previous Article') : null,
+    nextPath ? h(Link, { to: `/articulos${nextPath}` }, 'Next Article') : null,
   ]);
 }
 
@@ -86,7 +88,7 @@ function examplesToElements(examples) {
     }
 
     if (example.signupForm) {
-      return h(SignupForm);
+      return h(SignupForm, { title: 'Free Dialogue Practice', description: `Improve your understanding even more with a <u>free</u> dialogue, complete with script and audio!&nbsp;` });
     }
 
     return createExampleSection({ example, key })

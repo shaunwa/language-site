@@ -27,8 +27,9 @@ const App = () => {
     h('div', [
       h(NavBar, [
         h(Link, { to: '/', exact: true }, 'Home'),
-        h(Link, { to: '/articles' }, 'Articles'),
-        h(Link, { to: '/about' }, 'About'),
+        h(Link, { to: '/articulos' }, 'Articulos'),
+        h(Link, { to: '/conoceme' }, 'Conóceme'),
+        h(Link, { to: '/contacta' }, 'Contacta'),
       ]),
       h(Content, { className: 'content' }, [h(Routes)]),
     ])
