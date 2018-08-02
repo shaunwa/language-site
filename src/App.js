@@ -4,23 +4,13 @@ import { h } from 'react-hyperscript-helpers';
 import styled from 'styled-components';
 import Routes from 'react-static-routes';
 
+import { NavBar } from './packages/ui';
+
 import './app.css'
 
-const NavBar = styled.div`
-  background-color: #4056F4;
-  margin: auto;
-  text-align: center;
-
-  a:link, a:visited, a:hover, a:active {
-    display: inline-block;
-    color: #fff;
-    padding: 16px;
-    font-weight: 400;
-    text-decoration: none;
-  }
+const Content = styled.div`
+  margin-top: 50px;
 `;
-
-const Content = styled.div``;
 
 const App = () => {
   return h(Router, [

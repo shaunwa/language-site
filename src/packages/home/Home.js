@@ -8,7 +8,7 @@ import {
   ArticleHeader,
   ArticleHeaderText,
   HeaderSubtitleText,
-  SectionTitle,
+  SectionTitle as SectionTitleBase,
   SignupForm,
 } from '../ui';
 
@@ -30,6 +30,11 @@ export const HeaderSubtitleTextUnderneath = HeaderSubtitleText.extend`
   font-size: 20px;
   color: #fff;
   margin-top: 16px;
+`;
+
+const SectionTitle = SectionTitleBase.extend`
+  margin-bottom: 16px;
+  margin-top: 0;
 `;
 
 export default withSiteData(() => {
