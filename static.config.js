@@ -3,16 +3,16 @@ import { promisify } from 'util'
 import fs from 'fs'
 const readdir = promisify(fs.readdir)
 
-const DATA_PATH = 'data'
+const ARTICLES_PATH = 'data/articles';
 
 export default {
   getSiteData: () => ({
     title: 'React Static',
   }),
   getRoutes: async () => {
-    const dataFiles = await readdir(DATA_PATH)
+    const dataFiles = await readdir(ARTICLES_PATH)
 
-    const articles = dataFiles.map((fileName) => yaml.load(`${DATA_PATH}/${fileName}`));
+    const articles = dataFiles.map((fileName) => yaml.load(`${ARTICLES_PATH}/${fileName}`));
     const sortedArticles = articles.sort((one, two) => one.articleNumber < two.articleNumber);
     const articleRoutes = sortedArticles.map((article, index) => {
       const nextPath = index === 0 ? null : sortedArticles[index - 1].permalink;

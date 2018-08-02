@@ -2,7 +2,15 @@ import { withSiteData, Link } from 'react-static';
 import { h } from 'react-hyperscript-helpers';
 import styled from 'styled-components';
 
-import { Button, ArticleContainer, ArticleHeader, ArticleHeaderText, HeaderSubtitleText, SectionTitle, SignupForm } from '../ui';
+import {
+  Button,
+  ArticleContainer,
+  ArticleHeader,
+  ArticleHeaderText,
+  HeaderSubtitleText,
+  SectionTitle,
+  SignupForm,
+} from '../ui';
 
 export const Container = styled.div`
   padding: 16px;
