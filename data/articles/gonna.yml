@@ -1,7 +1,11 @@
 title: "Gonna, Wanna, Gotta"
 articleNumber: "01"
 permalink: /gonna
+ckDataSvForm: "718799"
+ckDataUuid: "aac6e66ea3"
 examples:
+-
+  signupForm: true
 -
   sectionTitle: "Gonna"
 -

@@ -1,6 +1,7 @@
 import { Link, withRouteData } from 'react-static';
 import { h } from 'react-hyperscript-helpers';
 import ReactMarkdown from 'react-markdown';
+import styled from 'styled-components';
 
 import {
   ArticleContainer,
@@ -23,9 +24,13 @@ import {
   SignupForm,
 } from '../ui';
 
+const PrevWrap = styled.div``;
+
+const NextWrap = styled.div``;
+
 const Article = ({ article }) => {
-  const { title, articleNumber, examples, nextPath, previousPath } = article;
-  const exampleElements = examplesToElements(examples);
+  const { title, articleNumber, examples, nextPath, previousPath, ckDataUuid, ckDataSvForm } = article;
+  const exampleElements = examplesToElements(examples, ckDataUuid, ckDataSvForm);
   return h(ArticleContainer, [
     h(ArticleHeader, [
       h(HeaderSubtitleText, `EPISODIO ${articleNumber}`),
@@ -34,8 +39,8 @@ const Article = ({ article }) => {
     h(ExamplesTable, [
       h(ArticleContent, [...exampleElements]),
     ]),
-    previousPath ? h(Link, { to: `/articulos${previousPath}` }, 'Previous Article') : null,
-    nextPath ? h(Link, { to: `/articulos${nextPath}` }, 'Next Article') : null,
+    previousPath ? h(PrevWrap, h(Link, { to: `/articulos${previousPath}` }, 'Previous Article')) : null,
+    nextPath ? h(NextWrap, h(Link, { to: `/articulos${nextPath}` }, 'Next Article')) : null,
   ]);
 }
 
@@ -73,7 +78,7 @@ function createExampleSection({ example, key }) {
   ];
 }
 
-function examplesToElements(examples) {
+function examplesToElements(examples, ckDataUuid, ckDataSvForm) {
   return examples.map((example, key) => {
     if (example.sectionTitle) {
       return h(ExampleRow, [
@@ -88,7 +93,12 @@ function examplesToElements(examples) {
     }
 
     if (example.signupForm) {
-      return h(SignupForm, { title: 'Free Dialogue Practice', description: `Improve your understanding even more with a <u>free</u> dialogue, complete with script and audio!&nbsp;` });
+      return h(SignupForm, {
+        title: 'Free Dialogue Practice',
+        description: `Improve your understanding even more with a <u>free</u> dialogue, complete with script and audio!&nbsp;`,
+        ckDataUuid,
+        ckDataSvForm
+      });
     }
 
     return createExampleSection({ example, key })

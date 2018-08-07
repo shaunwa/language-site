@@ -1,10 +1,9 @@
 import { Router, Link } from 'react-static'
 import { hot } from 'react-hot-loader'
 import { h } from 'react-hyperscript-helpers';
-import styled from 'styled-components';
 import Routes from 'react-static-routes';
 
-import { NavBar, Content, colors } from './packages/ui';
+import { NavBar, Content } from './packages/ui';
 
 import './app.css'
 
