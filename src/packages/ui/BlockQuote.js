@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+import colors from './colors';
+
 export const BlockQuote = styled.div`
   font-family: Georgia, serif;
   font-size: 18px;
@@ -9,7 +11,7 @@ export const BlockQuote = styled.div`
   padding-right: 22px;
   line-height: 1.45;
   position: relative;
-  color: #383838;
+  color: ${colors.textPrimary};
 
   :before {
     display: block;
@@ -19,6 +21,6 @@ export const BlockQuote = styled.div`
     position: absolute;
     left: -20px;
     top: -20px;
-    color: #7a7a7a;
+    color: ${colors.textSecondary};
   }
 `;

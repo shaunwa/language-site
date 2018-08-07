@@ -3,9 +3,16 @@ import { Link } from 'react-static';
 import { h } from 'react-hyperscript-helpers';
 import styled from 'styled-components';
 import { Icon } from './Icon';
+import colors from './colors';
+
+export const Content = styled.div`
+  padding-top: 50px;
+  background-color: ${colors.themePrimary};
+  min-height: 100vh;
+`;
 
 const NavContainer = styled.div`
-  background-color: #4056F4;
+  background-color: ${colors.themePrimary};
   margin: auto;
   text-align: center;
   position: fixed;
@@ -27,7 +34,7 @@ const NavContainer = styled.div`
 const LogoBar = styled.div`
   width: 100%;
   height: 56px;
-  background-color: #4056F4;
+  background-color: ${colors.themePrimary};
   border-bottom: solid #ddd 4px;
 `;
 
@@ -44,7 +51,7 @@ const Menu = styled.div`
   top: 56px;
   display: block;
   width: 100%;
-  box-shadow: 0px 10px 10px #555;
+  box-shadow: 0px 10px 10px ${colors.boxShadow};
 `;
 
 export class NavBar extends React.Component {

@@ -6,6 +6,7 @@ import {
   ArticleContainer,
   ArticleHeader,
   ArticleHeaderText,
+  colors,
 } from '../ui';
 
 const ArticlesList = styled.div`
@@ -25,10 +26,11 @@ const ArticleItem = styled.div`
 const ArticleTitle = styled.div`
   font-weight: bold;
   font-size: 24px;
+  color: ${colors.textPrimary};
 `;
 
 const ArticleDescription = styled.div`
-  color: #888;
+  color: ${colors.textSecondary};
 `;
 
 export default withRouteData(({ articles }) => {

@@ -1,7 +1,11 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
+
+import colors from './colors';
 
 export const ArticleContainer = styled.div`
   padding: 4px;
+  background-color: ${colors.themePrimary};
+  color: ${colors.textPrimary};
 `
 
 export const ArticleHeader = styled.div`
@@ -10,23 +14,26 @@ export const ArticleHeader = styled.div`
   margin: 16px;
   margin-left: -20px;
   border-radius: 8px;
-  background-color: #4056F4;
-  box-shadow: 5px 5px 10px #888888;
+  background-color: ${colors.themeSecondary};
+  box-shadow: 5px 5px 10px ${colors.boxShadow};
 `
 
 export const ArticleHeaderText = styled.h1`
-  color: #fff;
+  color: ${colors.textPrimary};
   margin: 0;
 `
 
 export const HeaderSubtitleText = styled.p`
   margin: 0;
   margin-bottom: 16px;
-  color: #87BFFF;
+  font-weight: 400;
+  color: ${colors.textPrimary};
 `
 
 export const ArticleContent = styled.div`
   padding: 0 16px;
+  color: ${colors.textPrimary};
+  background-color: ${colors.themePrimary};
 `
 
 export const ExamplesTable = styled.table`
@@ -36,7 +43,7 @@ export const ExamplesTable = styled.table`
 export const SectionTitle = styled.h2`
   margin-bottom: 32px;
   padding-bottom: 8px;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid ${colors.textPrimary};
 `
 
 export const SubsectionTitle = styled.h3`
@@ -67,7 +74,7 @@ export const SpanishExample = styled.td`
 export const ExampleNote = styled.td`
   font-style: italic;
   margin-bottom: 16px;
-  color: #888;
+  color: ${colors.textSecondary};
 `;
 
 export const ButtonRow = styled.tr`
@@ -75,7 +82,7 @@ export const ButtonRow = styled.tr`
   width: 100%;
   padding-bottom: 32px;
   margin-bottom: 32px;
-  border-bottom: 2px solid #eee;
+  border-bottom: 2px solid ${colors.textSecondary};
 `
 
 export const ButtonCell = styled.td`

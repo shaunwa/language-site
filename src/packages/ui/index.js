@@ -4,3 +4,4 @@ export * from './Buttons';
 export * from './Icon';
 export * from './NavBar';
 export * from './SignupForm';
+export colors from './colors';

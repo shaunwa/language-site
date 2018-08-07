@@ -4,13 +4,9 @@ import { h } from 'react-hyperscript-helpers';
 import styled from 'styled-components';
 import Routes from 'react-static-routes';
 
-import { NavBar } from './packages/ui';
+import { NavBar, Content, colors } from './packages/ui';
 
 import './app.css'
-
-const Content = styled.div`
-  margin-top: 50px;
-`;
 
 const App = () => {
   return h(Router, [

@@ -1,13 +1,16 @@
 import styled from 'styled-components';
 
+import colors from './colors';
+
 export const Button = styled.button`
   color: #fff;
-  background-color: #4056F4;
+  background-color: ${colors.themeSecondary};
   padding: 12px;
   font-size: 16px;
+  font-weight: bold;
   border-radius: 8px;
   border: none;
-  box-shadow: 2px 2px 5px #888888;
+  box-shadow: 2px 2px 5px ${colors.boxShadow};
 `;
 
 export const PlayButton = Button.extend`
