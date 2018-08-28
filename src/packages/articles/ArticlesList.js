@@ -15,7 +15,7 @@ const ArticlesList = styled.div`
 
 const ArticleItem = styled.div`
   padding: 16px;
-  border-bottom: 2px solid #eee;
+  border-bottom: 2px solid ${colors.textSecondary};
 
   a:link, a:visited, a:hover, a:active {
     color: #000;

@@ -1,10 +1,11 @@
 export default {
-  themePrimary: '#4ABDAC',
-  themeSecondary: '#F7B733',
+  themePrimary: '#EEE',
+  themeSecondary: '#2F70B0',
   themeAccent: '#FC4A1A',
 
-  textPrimary: '#FFF',
-  textSecondary: '#EEE',
+  textPrimary: '#000',
+  textSecondary: '#222',
+  textContrast: '#FFF',
 
   boxShadow: '#555',
 }

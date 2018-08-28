@@ -42,7 +42,7 @@ const HamburgerButton = styled.div`
   position: absolute;
   right: 8px;
   font-size: 40px;
-  color: #fff;
+  color: ${colors.textPrimary};
   top: 0;
 `;
 

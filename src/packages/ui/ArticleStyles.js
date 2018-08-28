@@ -19,7 +19,7 @@ export const ArticleHeader = styled.div`
 `
 
 export const ArticleHeaderText = styled.h1`
-  color: ${colors.textPrimary};
+  color: ${colors.textContrast};
   margin: 0;
 `
 
@@ -27,7 +27,7 @@ export const HeaderSubtitleText = styled.p`
   margin: 0;
   margin-bottom: 16px;
   font-weight: 400;
-  color: ${colors.textPrimary};
+  color: ${colors.textContrast};
 `
 
 export const ArticleContent = styled.div`
