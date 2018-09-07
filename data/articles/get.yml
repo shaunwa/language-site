@@ -1,4 +1,5 @@
 title: "La Palabra 'Get'"
+description: "Examinamos una palabra muy corta pero bastante complejo, la palabra 'Get', y cómo se usa en la vida cotidiana"
 articleNumber: "03"
 permalink: /get
 ckDataSvForm: "723520"
@@ -9,18 +10,28 @@ examples:
 -
   english: "Did you _get_ your wedding invitation yet?"
   spanish: "Ya recibiste tu invitación a la boda?"
+  audio: "get/Get1.m4a"
+  audioSlow: "get/Get2.m4a"
 -
   english: "He usually _gets_ good grades."
   spanish: "Usualmente recibe buenas notas."
+  audio: "get/Get3.m4a"
+  audioSlow: "get/Get4.m4a"
 -
   english: "Look what I _got_ in the mail!"
   spanish: "Mira lo que recibí por correo!"
+  audio: "get/Get5.m4a"
+  audioSlow: "get/Get6.m4a"
 -
   english: "What kind of salary do you _get_ at that company?"
   spanish: "Qué tipo de sueldo recibes en esa empresa?"
+  audio: "get/Get7.m4a"
+  audioSlow: "get/Get8.m4a"
 -
   english: "I texted her an hour ago, but I haven’t _gotten_ a response yet."
   spanish: "La envié un mensaje hace una hora, pero todavía no he recibido respuesta."
+  audio: "get/Get9.m4a"
+  audioSlow: "get/Get10.m4a"
 -
   signupForm: true
 -
@@ -29,42 +40,64 @@ examples:
   english: "I _get_ to relax all day tomorrow."
   spanish: "Puedo relajarme todo el día mañana."
   note: "(I can relax all day tomorrow.)"
+  audio: "get/Get11.m4a"
+  audioSlow: "get/Get12.m4a"
 -
   english: "Let me talk first, then you _get_ to ask questions."
   spanish: "Déjame hablar primero, y después puedes hacer preguntas."
   note: "(Let me talk first, then you can ask questions.)"
+  audio: "get/Get13.m4a"
+  audioSlow: "get/Get14.m4a"
 -
   english: "Will I _get_ to wear a hat to the party?"
   spanish: "Podré llevar un sombrero a la fiesta?"
   note: "(Will I be able to wear a hat to the party?)"
+  audio: "get/Get15.m4a"
+  audioSlow: "get/Get16.m4a"
 -
   english: "I haven’t _gotten_ to talk to him yet."
   spanish: "No he podido hablar con él todavía."
   note: "(I haven’t been able to talk to him yet.)"
+  audio: "get/Get17.m4a"
+  audioSlow: "get/Get18.m4a"
 -
   english: "We _got_ to meet Elon Musk!"
   spanish: "Hemos podido conocer a Elon Musk!"
   note: "(We were able to meet Elon Musk!)"
+  audio: "get/Get19.m4a"
+  audioSlow: "get/Get20.m4a"
 -
   sectionTitle: "Comprar"
 -
   english: "Could you _get_ groceries on your way home?"
   spanish: "Podrías comprar comestibles de camino a casa?"
+  audio: "get/Get21.m4a"
+  audioSlow: "get/Get22.m4a"
 -
   english: "I _got_ you something for Christmas."
   spanish: "Te compré algo para la Navidad."
+  audio: "get/Get23.m4a"
+  audioSlow: "get/Get24.m4a"
 -
   english: "Look at that ring her boyfriend _got_ her!"
   spanish: "Mira ese anillo que le compró su novio!"
+  audio: "get/Get25.m4a"
+  audioSlow: "get/Get26.m4a"
 -
   english: "Let’s _get_ some beer after work."
   spanish: "Compremos unas cervezas después del trabajo."
+  audio: "get/Get27.m4a"
+  audioSlow: "get/Get28.m4a"
 -
   english: "Where did you _get_ that shirt?"
   spanish: "Dónde compraste esa camisa?"
+  audio: "get/Get29.m4a"
+  audioSlow: "get/Get30.m4a"
 -
   english: "I’m going to _get_ some bananas."
   spanish: "Voy a comprar unas bananas."
+  audio: "get/Get31.m4a"
+  audioSlow: "get/Get32.m4a"
 -
   signupForm: true
 -
@@ -72,35 +105,55 @@ examples:
 -
   english: "I usually _get_ to the office at nine."
   spanish: "Usualmente llego a la oficina a las nueve."
+  audio: "get/Get33.m4a"
+  audioSlow: "get/Get34.m4a"
 -
   english: "Let’s eat something when we _get_ to New York."
   spanish: "Comamos algo cuando lleguemos a Nueva York."
+  audio: "get/Get35.m4a"
+  audioSlow: "get/Get36.m4a"
 -
   english: "Sorry we _got_ here so late."
   spanish: "Disculpa que llegamos tan tarde."
+  audio: "get/Get37.m4a"
+  audioSlow: "get/Get38.m4a"
 -
   english: "Let me know when you _get_ home."
   spanish: "Házmelo saber cuando llegues a casa."
+  audio: "get/Get39.m4a"
+  audioSlow: "get/Get40.m4a"
 -
   english: "When are we going to _get_ there?"
   spanish: "Cuándo vamos a llegar allí?"
+  audio: "get/Get41.m4a"
+  audioSlow: "get/Get42.m4a"
 -
   sectionTitle: "Tener"
 -
   english: "I’ve _got_ one hundred dollars in my pocket."
   spanish: "Tengo cien dólares en mi bolsillo."
+  audio: "get/Get43.m4a"
+  audioSlow: "get/Get44.m4a"
 -
   english: "Have you _got_ any food?"
   spanish: "Tienes algo de comida?"
+  audio: "get/Get45.m4a"
+  audioSlow: "get/Get46.m4a"
 -
   english: "We’ve _got_ all the time we need."
   spanish: "Tenemos todo el tiempo que necesitamos."
+  audio: "get/Get47.m4a"
+  audioSlow: "get/Get48.m4a"
 -
   english: "He’s _got_ a girlfriend."
   spanish: "Tiene novia."
+  audio: "get/Get49.m4a"
+  audioSlow: "get/Get50.m4a"
 -
   english: "I heard that they’ve _got_ a house now."
   spanish: "He oído que tienen una casa ahora."
+  audio: "get/Get51.m4a"
+  audioSlow: "get/Get52.m4a"
 -
   signupForm: true
 -
@@ -108,49 +161,77 @@ examples:
 -
   english: "We’ve _got_ to (gotta) find somewhere to hide."
   spanish: "Tenemos que encontrar un lugar donde ocultarnos."
+  audio: "get/Get53.m4a"
+  audioSlow: "get/Get54.m4a"
 -
   english: "I’ve _got_ to (gotta) go to the bathroom."
   spanish: "Tengo que ir al baño."
+  audio: "get/Get55.m4a"
+  audioSlow: "get/Get56.m4a"
 -
   english: "You’ve _got_ to (gotta) be kidding."
   spanish: "Tienes que estar bromeando."
+  audio: "get/Get57.m4a"
+  audioSlow: "get/Get58.m4a"
 -
   english: "He’s _got_ to (gotta) realize that no one wants him around."
   spanish: "Tiene que realizar que nadie quiere tenerlo cerca."
+  audio: "get/Get59.m4a"
+  audioSlow: "get/Get60.m4a"
 -
   english: "They’ve _got_ to (gotta) talk more quietly."
   spanish: "Tienen que hablar más tranquilamente."
+  audio: "get/Get61.m4a"
+  audioSlow: "get/Get62.m4a"
 -
   sectionTitle: "Entender"
 -
   english: "I don’t _get_ why we have to do this."
   spanish: "No entiendo por qué tenemos que hacer esto."
   note: "(For bonus points: I don’t _get_ why we’ve _got_ to do this)"
+  audio: "get/Get63.m4a"
+  audioSlow: "get/Get64.m4a"
 -
   english: "Do you _get_ what I mean?"
   spanish: "Entiendes lo que quiero decir?"
+  audio: "get/Get65.m4a"
+  audioSlow: "get/Get66.m4a"
 -
   english: "Oh, I _get_ it now."
   spanish: "Oh, ahora entiendo."
+  audio: "get/Get67.m4a"
+  audioSlow: "get/Get68.m4a"
 -
   english: "She just doesn’t _get_ it, does she?"
   spanish: "Simplemente no lo entiende, verdad?"
+  audio: "get/Get69.m4a"
+  audioSlow: "get/Get70.m4a"
 -
   english: "Sometimes I just don’t _get_ you."
   spanish: "A veces simplemente no te entiendo."
+  audio: "get/Get71.m4a"
+  audioSlow: "get/Get72.m4a"
 -
   sectionTitle: "Significado Reflexivo"
 -
   english: "How did I _get_ tricked like that?"
   spanish: "Cómo es que me engañaron así?"
+  audio: "get/Get73.m4a"
+  audioSlow: "get/Get74.m4a"
 -
   english: "I expect to _get_ rewarded for helping you."
   spanish: "Espero que me recompensen por ayudarte."
+  audio: "get/Get75.m4a"
+  audioSlow: "get/Get76.m4a"
 -
   english: "You’re going to _get_ punched if you keep talking like that."
   spanish: "Te van a pegar si sigues hablando así."
+  audio: "get/Get77.m4a"
+  audioSlow: "get/Get78.m4a"
 -
   english: "I _got_ teased in high school because of my nose."
   spanish: "Se burlaban de mí en la secundaria a causa de mi nariz."
+  audio: "get/Get79.m4a"
+  audioSlow: "get/Get80.m4a"
 -
   signupForm: true

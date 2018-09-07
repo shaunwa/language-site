@@ -14,8 +14,8 @@ const ArticlesList = styled.div`
 `;
 
 const ArticleItem = styled.div`
-  padding: 16px;
-  border-bottom: 2px solid ${colors.textSecondary};
+  padding: 32px 16px;
+  border-bottom: 2px solid ${colors.faintOutline};
 
   a:link, a:visited, a:hover, a:active {
     color: #000;
@@ -27,6 +27,7 @@ const ArticleTitle = styled.div`
   font-weight: bold;
   font-size: 24px;
   color: ${colors.textPrimary};
+  margin-bottom: 16px;
 `;
 
 const ArticleDescription = styled.div`
@@ -38,7 +39,7 @@ export default withRouteData(({ articles }) => {
     return h(ArticleItem, [
       h(Link, { to: `/articulos${article.permalink}` }, [
         h(ArticleTitle, `${article.articleNumber} - ${article.title}`),
-        h(ArticleDescription, 'We examine the words gonna, wanna and gotta and how they can help you...'),
+        h(ArticleDescription, `${article.description}...`),
       ]),
     ])
   });

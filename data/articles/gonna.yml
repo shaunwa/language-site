@@ -1,132 +1,228 @@
-title: "Gonna, Wanna, Gotta"
+title: "Hablar el inglés más como un nativo en 3 palabras"
+description: "Hay 3 palabras que cada gringo usa diaramente sin siquiera pensar, estas palabras son"
 articleNumber: "01"
 permalink: /gonna
-ckDataSvForm: "718799"
-ckDataUuid: "aac6e66ea3"
+ckDataSvForm: "739465"
+ckDataUuid: "ec75ac1b00"
 examples:
+-
+  explanation: >
+    Hay ciertas palabras que cada gringo usa diaramente sin siquiera pensar. Son palabras que a lo mejor
+    no se encuentran en el diccionario, ni salen en Google Translate, ni te enseñaron en la clase de inglés.
+    Iguál, las usamos. Y mucho. Entender y usar estas palabras es un gran paso para entender el inglés "fuera-del-aula",
+    el inglés que los angloparlantes se usan entre sí. Echemos un vistazo a estas palabras y como se usan, como siempre
+    con muchos ejemplos y audios.
 -
   signupForm: true
 -
   sectionTitle: "Gonna"
 -
+  explanation: >
+    La primera palabra es "Gonna". Gonna es una version corta de decir "Going to" ("Ir a..."), como "I'm going to eat"
+    - Voy a comer. Se dice así porque "gonna" es mucho más fácil de pronunciar que "going to", que es un montón de consonantes y vocales.
+    Unos ejemplos de como usar "gonna":
+-
   english: "I’m _gonna_ leave at eight o’clock."
   spanish: "Voy a irme a las ocho."
-  audio: "gonna-01.mp3"
+  audio: "gonna/Gonna1.m4a"
+  audioSlow: "gonna/Gonna2.m4a"
 -
   english: "You’re _gonna_ love this song."
   spanish: "Esta canción te va a encantar"
-  audio: "gonna-02.mp3"
--
-  english: "You’re _gonna_ love this song."
-  spanish: "Esta canción te va a encantar."
+  audio: "gonna/Gonna3.m4a"
+  audioSlow: "gonna/Gonna4.m4a"
 -
   english: "How many times are you _gonna_ ask me that?"
   spanish: "Cuántas veces vas a preguntarme eso?"
+  audio: "gonna/Gonna5.m4a"
+  audioSlow: "gonna/Gonna6.m4a"
 -
   english: "Are you _gonna_ be okay without me?"
   spanish: "Vas a estar bien sin mí?"
+  audio: "gonna/Gonna7.m4a"
+  audioSlow: "gonna/Gonna8.m4a"
 -
   english: "He’s _gonna_ think you’re crazy!"
   spanish: "Va a pensar que estás loco!"
+  audio: "gonna/Gonna9.m4a"
+  audioSlow: "gonna/Gonna10.m4a"
 -
   english: "Dinner’s _gonna_ be ready soon."
   spanish: "La cena va a estar lista pronto."
+  audio: "gonna/Gonna11.m4a"
+  audioSlow: "gonna/Gonna12.m4a"
 -
   english: "We’re _gonna_ die if we don’t find water soon!"
   spanish: "Vamos a morir si no encontramos agua pronto!"
+  audio: "gonna/Gonna13.m4a"
+  audioSlow: "gonna/Gonna14.m4a"
 -
   english: "They’re _gonna_ think we’re dating."
   spanish: "Van a pensar que somos novios."
+  audio: "gonna/Gonna15.m4a"
+  audioSlow: "gonna/Gonna16.m4a"
 -
   subsectionTitle: "Negatives"
 -
   english: "I’m not _gonna_ hurt you!"
   spanish: "No voy a hacerte daño!"
+  audio: "gonna/Gonna17.m4a"
+  audioSlow: "gonna/Gonna18.m4a"
 -
   english: "You’re not _gonna_ believe it, but…"
   spanish: "No lo vas a creer, pero..."
+  audio: "gonna/Gonna19.m4a"
+  audioSlow: "gonna/Gonna20.m4a"
 -
   english: "He’s not _gonna_ eat this."
   spanish: "No va a comer esto."
+  audio: "gonna/Gonna21.m4a"
+  audioSlow: "gonna/Gonna22.m4a"
 -
   english: "We’re not _gonna_ give up yet."
   spanish: "No vamos a renunciar todavía."
+  audio: "gonna/Gonna23.m4a"
+  audioSlow: "gonna/Gonna24.m4a"
 -
   english: "They’re not _gonna_ let you do that."
   spanish: "No van a dejar que hagas eso."
+  audio: "gonna/Gonna25.m4a"
+  audioSlow: "gonna/Gonna26.m4a"
 -
   sectionTitle: "Wanna"
 -
+  explanation: >
+    La segunda palabra es "Wanna", que es una version corta de decir "Want to..." ("Querer..."), como "I want to tell you something"
+    - Quiero decirte algo. Como "gonna", "wanna" se usa porque a los gringos, no nos gusta pronunciar "want to" como dos palabras.
+    Es mucho más fácil decir "wanna".
+    Unos ejemplos de como usar "wanna":
+-
   english: "I _wanna_ get married before I’m old."
   spanish: "Quiero casarme antes de ser viejo."
+  audio: "gonna/Gonna27.m4a"
+  audioSlow: "gonna/Gonna28.m4a"
 -
   english: "I never _wanna_ be rich."
   spanish: "Nunca quiero ser rico."
+  audio: "gonna/Gonna29.m4a"
+  audioSlow: "gonna/Gonna30.m4a"
 -
   english: "I can see you don’t _wanna_ kiss me."
   spanish: "Puedo ver que quieres besarme."
+  audio: "gonna/Gonna31.m4a"
+  audioSlow: "gonna/Gonna32.m4a"
 -
   english: "(Do you) _wanna_ come with me?"
   spanish: "Quieres venir conmigo?"
+  audio: "gonna/Gonna33.m4a"
+  audioSlow: "gonna/Gonna34.m4a"
 -
   english: "(Do you) _wanna_ eat something before we leave?"
   spanish: "Quieres comer algo antes de irnos?"
+  audio: "gonna/Gonna35.m4a"
+  audioSlow: "gonna/Gonna36.m4a"
 -
   english: "He _wants_ to tell you a secret.*"
   spanish: "Quiere contarte un secreto."
   note: "* nota que no se cambia con “he” o “she” a causa del “s” extra."
+  audio: "gonna/Gonna37.m4a"
+  audioSlow: "gonna/Gonna38.m4a"
 -
   english: "We didn’t _wanna_ make you cry."
   spanish: "No queríamos hacerte llorar!"
+  audio: "gonna/Gonna39.m4a"
+  audioSlow: "gonna/Gonna40.m4a"
 -
   english: "They _wanna_ know why you’re so late."
   spanish: "Quieren saber por qué tardaste tanto."
+  audio: "gonna/Gonna41.m4a"
+  audioSlow: "gonna/Gonna42.m4a"
 -
   subsectionTitle: "Negatives"
 -
   english: "I don’t _wanna_ know."
   spanish: "No quiero saber."
+  audio: "gonna/Gonna43.m4a"
+  audioSlow: "gonna/Gonna44.m4a"
 -
   english: "You don’t _wanna_ watch this movie, do you?"
   spanish: "No quieres ver esta película, verdad?"
+  audio: "gonna/Gonna45.m4a"
+  audioSlow: "gonna/Gonna46.m4a"
 -
   english: "She doesn’t _wanna_ hug you.*"
   spanish: "No quiere abrazarte."
-  note: `* En este caso, “_wanna_” sí se usa, porque con “doesn’t” la forma correcta sería “He doesn’t want to...”, sin el “s” extra.`
+  note: `* En este caso, “wanna” sí se usa, porque con “doesn’t” la forma correcta sería “He doesn’t want to...”, sin el “s” extra.`
+  audio: "gonna/Gonna47.m4a"
+  audioSlow: "gonna/Gonna48.m4a"
 -
   english: "We don’t _wanna_ go to that restaurant."
   spanish: "No queremos ir a ese restaurante."
+  audio: "gonna/Gonna49.m4a"
+  audioSlow: "gonna/Gonna50.m4a"
 -
   english: "They don’t _wanna_ hear our music."
   spanish: "No quieren escuchar nuestra música."
+  audio: "gonna/Gonna51.m4a"
+  audioSlow: "gonna/Gonna52.m4a"
 -
   sectionTitle: "Gotta"
 -
+  explanation: >
+    Y la última palabra por hoy es "Gotta", que es una contracctión de "Got to..." ("Tener que..."), como "I've got to go to the bathroom."
+    - Tengo que ir al baño. "Gotta" también se usa simplemente porque es más fácil y rápido de decir que "Got to".
+    Unos ejemplos de como usar "Gotta":
+-
   english: "I’ve _gotta_ go to work now."
   spanish: "Tengo que ir al trabajo ahora."
+  audio: "gonna/Gonna53.m4a"
+  audioSlow: "gonna/Gonna54.m4a"
 -
   english: "I’ve _gotta_ know if she loves me or not."
   spanish: "Tengo que saber si me ama o no."
+  audio: "gonna/Gonna55.m4a"
+  audioSlow: "gonna/Gonna56.m4a"
 -
   english: "You’ve _gotta_ remember to wake up at 7 tomorrow."
   spanish: "Tienes que recordar despertarte a las 7 mañana."
+  audio: "gonna/Gonna57.m4a"
+  audioSlow: "gonna/Gonna58.m4a"
 -
   english: "He’s _gotta_ find a girlfriend."
   spanish: "Tiene que encontrar novia."
+  audio: "gonna/Gonna59.m4a"
+  audioSlow: "gonna/Gonna60.m4a"
 -
   english: "We’ve _gotta_ go back in time to save him."
   spanish: "Tenemos que volver en el tiempo para salvarlo."
+  audio: "gonna/Gonna61.m4a"
+  audioSlow: "gonna/Gonna62.m4a"
 -
   english: "They’ve _gotta_ be crazy."
   spanish: "Tienen que ser locos."
+  audio: "gonna/Gonna63.m4a"
+  audioSlow: "gonna/Gonna64.m4a"
 -
   subsectionTitle: `Negatives (generalmente se usa “have to” en vez de “got to” con el negativo”)`
 -
   english: "I don’t _have to_ tell you anything."
   spanish: "No tengo que decirte nada."
+  audio: "gonna/Gonna65.m4a"
+  audioSlow: "gonna/Gonna66.m4a"
 -
   english: "You don’t _have to_ lie to me."
   spanish: "No tienes que mentirme."
+  audio: "gonna/Gonna67.m4a"
+  audioSlow: "gonna/Gonna68.m4a"
 -
   english: "He doesn’t _have to_ leave if he doesn’t want to."
   spanish: "No tiene que irse si no quiere."
+  audio: "gonna/Gonna69.m4a"
+  audioSlow: "gonna/Gonna70.m4a"
+-
+  explanation: >
+    Eso es todo por hoy! Si quieres aún más práctica con estas palabras, escribí un diálogo con audio y transcripción
+    que puedes descargar completamente gratis al introducir tu email abajo:
+-
+  explanation: >
+    Y si tienes alguna duda o comentario, no dudes en enviarme un email a shaun.the.gringo@gmail.com.

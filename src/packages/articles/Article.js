@@ -13,16 +13,15 @@ import {
   SectionTitle,
   SubsectionTitle,
   ExampleRow,
+  Explanation,
   EnglishExample,
   SpanishExample,
   ExampleNote,
   ButtonRow,
   ButtonCell,
-  PlayButton,
-  ButtonText,
-  Icon,
   SignupForm,
 } from '../ui';
+import { PlayButton, SlowButton } from './PlayButton';
 
 const PrevWrap = styled.div``;
 
@@ -53,26 +52,14 @@ function createExampleSection({ example, key }) {
     ]),
     h(ButtonRow, [
       h(ButtonCell, [
-        h(PlayButton, [
-          h(Icon, {
-            name: 'play',
-            style: {
-              float: 'left',
-            },
-          }),
-          h(ButtonText, 'Play'),
-        ]),
+        example.audio ? h(PlayButton, {
+          audioUrl: example.audio,
+        }) : null,
       ]),
       h(ButtonCell, [
-        h(PlayButton, [
-          h(Icon, {
-            name: 'step-forward',
-            style: {
-              float: 'left',
-            },
-          }),
-          h(ButtonText, 'Slow'),
-        ]),
+        example.audioSlow ? h(SlowButton, {
+          audioUrl: example.audioSlow,
+        }) : null,
       ]),
     ]),
   ];
@@ -80,6 +67,10 @@ function createExampleSection({ example, key }) {
 
 function examplesToElements(examples, ckDataUuid, ckDataSvForm) {
   return examples.map((example, key) => {
+    if (example.explanation) {
+      return h(ExampleRow, [h(Explanation, example.explanation)]);
+    }
+
     if (example.sectionTitle) {
       return h(ExampleRow, [
         h(SectionTitle, example.sectionTitle),
@@ -94,10 +85,11 @@ function examplesToElements(examples, ckDataUuid, ckDataSvForm) {
 
     if (example.signupForm) {
       return h(SignupForm, {
-        title: 'Free Dialogue Practice',
-        description: `Improve your understanding even more with a <u>free</u> dialogue, complete with script and audio!&nbsp;`,
+        title: example.formTitle  || 'Quieres practicar aún más?',
+        description: example.formDescription || `Suscríbete y recibe diálogos con transcripción y audio, completamente gratis!&nbsp;`,
+        buttonText: example.formButtonText || `Envíamelo!`,
         ckDataUuid,
-        ckDataSvForm
+        ckDataSvForm,
       });
     }
 

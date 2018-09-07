@@ -4,8 +4,15 @@ import colors from './colors';
 
 export const ArticleContainer = styled.div`
   padding: 4px;
+  padding-bottom: 150px;
   background-color: ${colors.themePrimary};
   color: ${colors.textPrimary};
+  max-width: 740px;
+  margin: auto;
+
+  @media only screen and (min-width: 500px) {
+    padding-bottom: 300px;
+  }
 `
 
 export const ArticleHeader = styled.div`
@@ -20,7 +27,7 @@ export const ArticleHeader = styled.div`
 
 export const ArticleHeaderText = styled.h1`
   color: ${colors.textContrast};
-  margin: 0;
+  margin: 24px 0;
 `
 
 export const HeaderSubtitleText = styled.p`
@@ -41,7 +48,6 @@ export const ExamplesTable = styled.table`
 `
 
 export const SectionTitle = styled.h2`
-  margin-bottom: 32px;
   padding-bottom: 8px;
   border-bottom: 2px solid ${colors.textPrimary};
 `
@@ -52,8 +58,11 @@ export const SubsectionTitle = styled.h3`
 
 export const ExampleRow = styled.tr`
   display: block;
-  margin-bottom: 16px;
+  padding: 32px 0;
 `
+
+export const Explanation = styled.div`
+`;
 
 export const EnglishExample = styled.td`
   display: block;
@@ -82,7 +91,7 @@ export const ButtonRow = styled.tr`
   width: 100%;
   padding-bottom: 32px;
   margin-bottom: 32px;
-  border-bottom: 2px solid ${colors.textSecondary};
+  border-bottom: 2px solid ${colors.faintOutline};
 `
 
 export const ButtonCell = styled.td`
