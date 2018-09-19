@@ -27,7 +27,7 @@ export default () =>
     h(Container, whatIsThisSiteAboutText[0]),
     h(BlockQuote, `
       Muchas veces - demasiadas - el inglés \
-      no se enseña como se habla de verdad.
+      no se enseña como realmente se habla.
     `),
     h(Container, whatIsThisSiteAboutText[1]),
     h(ArticleHeader, [

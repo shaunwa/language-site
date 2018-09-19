@@ -2,14 +2,18 @@ title: "Hablar el inglés más como un nativo en 3 palabras"
 description: "Hay 3 palabras que cada gringo usa diaramente sin siquiera pensar, estas palabras son"
 articleNumber: "01"
 permalink: /gonna
-ckDataSvForm: "739465"
-ckDataUuid: "ec75ac1b00"
+ckDataSvForm: "747905"
+ckDataUuid: "c43ad746ba"
+ckDataSvFormSmall: "747907"
+ckDataUuidSmall: "7eda626a4d"
 examples:
+-
+  youtubeVideoId: "UAIhpOmNhSM"
 -
   explanation: >
     Hay ciertas palabras que cada gringo usa diaramente sin siquiera pensar. Son palabras que a lo mejor
     no se encuentran en el diccionario, ni salen en Google Translate, ni te enseñaron en la clase de inglés.
-    Iguál, las usamos. Y mucho. Entender y usar estas palabras es un gran paso para entender el inglés "fuera-del-aula",
+    Igual, las usamos. Y mucho. Entender y usar estas palabras es un gran paso para entender el inglés "fuera-del-aula",
     el inglés que los angloparlantes se usan entre sí. Echemos un vistazo a estas palabras y como se usan, como siempre
     con muchos ejemplos y audios.
 -
@@ -203,7 +207,10 @@ examples:
   audio: "gonna/Gonna63.m4a"
   audioSlow: "gonna/Gonna64.m4a"
 -
-  subsectionTitle: `Negatives (generalmente se usa “have to” en vez de “got to” con el negativo”)`
+  subsectionTitle: `Negatives`
+-
+  explanation: >
+    Recuerda que generalmente se usa "have to" en vez de "got to" en el negativo.
 -
   english: "I don’t _have to_ tell you anything."
   spanish: "No tengo que decirte nada."
@@ -222,7 +229,9 @@ examples:
 -
   explanation: >
     Eso es todo por hoy! Si quieres aún más práctica con estas palabras, escribí un diálogo con audio y transcripción
-    que puedes descargar completamente gratis al introducir tu email abajo:
+    que puedes acceder completamente gratis al introducir tu email abajo:
+-
+  signupFormSmall: true
 -
   explanation: >
     Y si tienes alguna duda o comentario, no dudes en enviarme un email a shaun.the.gringo@gmail.com.

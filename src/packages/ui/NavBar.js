@@ -115,13 +115,13 @@ export class NavBar extends React.Component {
       ]),
       h(NavigationOptionsBar, [
         h(Link, { to: '/', exact: true, onClick: this.closeMenu }, 'Home'),
-        h(Link, { to: '/articulos', onClick: this.closeMenu }, 'Articulos'),
+        h(Link, { to: '/articulos', onClick: this.closeMenu }, 'Artículos'),
         h(Link, { to: '/conoceme', onClick: this.closeMenu }, 'Conóceme'),
         h(Link, { to: '/contacta', onClick: this.closeMenu }, 'Contacta'),
       ]),
       open ? h(Menu, [
         h(Link, { to: '/', exact: true, onClick: this.closeMenu }, 'Home'),
-        h(Link, { to: '/articulos', onClick: this.closeMenu }, 'Articulos'),
+        h(Link, { to: '/articulos', onClick: this.closeMenu }, 'Artículos'),
         h(Link, { to: '/conoceme', onClick: this.closeMenu }, 'Conóceme'),
         h(Link, { to: '/contacta', onClick: this.closeMenu }, 'Contacta'),
       ]) : null,

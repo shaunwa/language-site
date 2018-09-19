@@ -2,9 +2,21 @@ title: "Cómo expresar felicidad"
 description: "Expresar tus emociones en otro idioma puede ser bastante dificil, especialmente si ese idioma tiene tantas palabras para hacerlo"
 articleNumber: "04"
 permalink: /como-expresar-felicidad
-ckDataSvForm: "723871"
-ckDataUuid: "916593c94f"
+ckDataSvForm: "747905"
+ckDataUuid: "c43ad746ba"
+ckDataSvFormSmall: "747907"
+ckDataUuidSmall: "7eda626a4d"
 examples:
+-
+  youtubeVideoId: "PyPLssWQrkI"
+-
+  explanation: >
+    Personalmente, una de mis cosas favoritas sobre el inglés es que muchas veces hay tantas palabras para expresar básicamente la misma cosa,
+    pero con sutilezas distintas. Hoy vamos a echar un vistazo a una colleción de distintas palabras para expresar felicidad en inglés. Además de
+    "good", que seguramente es una de las primeras palabras que aprendiste, hay un montón de palabras más interesantes - y más divertidos de decir -
+    para expresar felicidad en diferentes grados. Por orden de intensidad, aquí están:
+-
+  signupForm: true
 -
   sectionTitle: "Cool"
 -
@@ -144,3 +156,12 @@ examples:
   spanish: "Mi amigo acaba de comprar un yate. Es bastante increíble."
   audio: "felicidad/Felicidad49.m4a"
   audioSlow: "felicidad/Felicidad50.m4a"
+-
+  explanation: >
+    Eso es todo por hoy! Si quieres aún más práctica con estas palabras, escribí un diálogo con audio y transcripción
+    que puedes acceder completamente gratis al introducir tu email abajo:
+-
+  signupFormSmall: true
+-
+  explanation: >
+    Y si tienes alguna duda o comentario, no dudes en enviarme un email a shaun.the.gringo@gmail.com.

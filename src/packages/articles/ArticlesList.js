@@ -46,7 +46,7 @@ export default withRouteData(({ articles }) => {
 
   return h(ArticleContainer, [
     h(ArticleHeader, [
-      h(ArticleHeaderText, 'Articles'),
+      h(ArticleHeaderText, 'Artículos'),
     ]),
     h(ArticlesList, articleNames),
   ]);

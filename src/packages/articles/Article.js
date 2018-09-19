@@ -2,6 +2,7 @@ import { Link, withRouteData } from 'react-static';
 import { h } from 'react-hyperscript-helpers';
 import ReactMarkdown from 'react-markdown';
 import styled from 'styled-components';
+import YouTube from 'react-youtube';
 
 import {
   ArticleContainer,
@@ -20,6 +21,8 @@ import {
   ButtonRow,
   ButtonCell,
   SignupForm,
+  SignupFormSmall,
+  YoutubeVideo,
 } from '../ui';
 import { PlayButton, SlowButton } from './PlayButton';
 
@@ -28,8 +31,8 @@ const PrevWrap = styled.div``;
 const NextWrap = styled.div``;
 
 const Article = ({ article }) => {
-  const { title, articleNumber, examples, nextPath, previousPath, ckDataUuid, ckDataSvForm } = article;
-  const exampleElements = examplesToElements(examples, ckDataUuid, ckDataSvForm);
+  const { title, articleNumber, examples, nextPath, previousPath, ckDataUuid, ckDataSvForm, ckDataUuidSmall, ckDataSvFormSmall } = article;
+  const exampleElements = examplesToElements(examples, ckDataUuid, ckDataSvForm, ckDataUuidSmall, ckDataSvFormSmall);
   return h(ArticleContainer, [
     h(ArticleHeader, [
       h(HeaderSubtitleText, `EPISODIO ${articleNumber}`),
@@ -65,8 +68,20 @@ function createExampleSection({ example, key }) {
   ];
 }
 
-function examplesToElements(examples, ckDataUuid, ckDataSvForm) {
+function examplesToElements(examples, ckDataUuid, ckDataSvForm, ckDataUuidSmall, ckDataSvFormSmall) {
   return examples.map((example, key) => {
+    if (example.youtubeVideoId) {
+      return h(ExampleRow, [
+        h(YoutubeVideo, {
+          videoId: example.youtubeVideoId,
+          opts: {
+            width: '100%',
+            height: 'auto',
+          }
+        })
+      ])
+    }
+
     if (example.explanation) {
       return h(ExampleRow, [h(Explanation, example.explanation)]);
     }
@@ -86,10 +101,17 @@ function examplesToElements(examples, ckDataUuid, ckDataSvForm) {
     if (example.signupForm) {
       return h(SignupForm, {
         title: example.formTitle  || 'Quieres practicar aún más?',
-        description: example.formDescription || `Suscríbete y recibe diálogos con transcripción y audio, completamente gratis!&nbsp;`,
-        buttonText: example.formButtonText || `Envíamelo!`,
+        description: example.formDescription || `Obtén acceso a diálogos con transcripción y audio, completamente gratis!&nbsp;`,
+        buttonText: example.formButtonText || `Envíame el enlace`,
         ckDataUuid,
         ckDataSvForm,
+      });
+    }
+
+    if (example.signupFormSmall) {
+      return h(SignupFormSmall, {
+        ckDataUuidSmall,
+        ckDataSvFormSmall,
       });
     }
 

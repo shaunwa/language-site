@@ -8,7 +8,7 @@
     "stage": "react-static build --staging",
     "build": "react-static build",
     "serve": "serve dist -p 3000",
-    "deploy": "react-static build && aws s3 rm s3://www.gringl.es --recursive && aws s3 cp dist s3://www.gringl.es --recursive"
+    "deploy": "react-static build && aws s3 rm s3://www.gringl.es/ --recursive --exclude \"audios/*\" && aws s3 cp dist/ s3://www.gringl.es --recursive --exclude \"audios/*\""
   },
   "dependencies": {
     "axios": "^0.16.2",
@@ -25,6 +25,7 @@
     "react-script-tag": "^1.1.2",
     "react-sound": "1.2.0",
     "react-static": "^5.9.7",
+    "react-youtube": "7.6.0",
     "styled-components": "^3.3.3",
     "yamljs": "^0.3.0"
   },

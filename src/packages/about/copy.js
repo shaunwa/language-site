@@ -5,7 +5,7 @@ export const whatIsThisSiteAboutText = [
   aprenderlo.`,
 
   `Me parece que el problema número uno es que muchas veces - demasiadas - el inglés \
-  no se enseña como se habla de verdad.
+  no se enseña como realmente se habla.
 
   Se enseña una suerte de inglés idealista, muy claro y correcto, \
   que se usa muy poco. No es ninguna sorpresa que la gente tiene problemas en charlar con hablantes nativos - \

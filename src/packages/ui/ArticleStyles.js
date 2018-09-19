@@ -38,7 +38,7 @@ export const HeaderSubtitleText = styled.p`
 `
 
 export const ArticleContent = styled.div`
-  padding: 0 16px;
+  padding: 0 20px;
   color: ${colors.textPrimary};
   background-color: ${colors.themePrimary};
 `

@@ -2,9 +2,25 @@ title: "La Palabra 'Get'"
 description: "Examinamos una palabra muy corta pero bastante complejo, la palabra 'Get', y cómo se usa en la vida cotidiana"
 articleNumber: "03"
 permalink: /get
-ckDataSvForm: "723520"
-ckDataUuid: "fe846719dd"
+ckDataSvForm: "747905"
+ckDataUuid: "c43ad746ba"
+ckDataSvFormSmall: "747907"
+ckDataUuidSmall: "7eda626a4d"
 examples:
+-
+  youtubeVideoId: "KKajbKeAR8I"
+-
+  explanation: >
+    Este artículo es el primero en una serie que voy a llamar "Palabras increíble cortas y comunes".
+    Una de las cosas más frustrantes de escuchar y entender el inglés es que, al contrario que el español, donde la mayoría de las
+    palabras tienen dos o más sílabas, la gran mayoría de las palabras fundamentales consisten en una sola sílaba. Buy, walk, talk, sing,
+    know, say... la lista sigue. Y como los gringos hablamos siempre muy rápido, entender lo que te dice un gringo puede llegar a ser una
+    verdadera pesadilla. Pero no te desesperes, es por eso que hago esta serie de videos y artículos!
+-
+  signupForm: true
+-
+  explanation: >
+    La primera palabra que vamos a examinar es la palabra "Get", que puede tener varios significados según el contexto. Echemos un vistazo:
 -
   sectionTitle: "Recibir"
 -
@@ -32,8 +48,6 @@ examples:
   spanish: "La envié un mensaje hace una hora, pero todavía no he recibido respuesta."
   audio: "get/Get9.m4a"
   audioSlow: "get/Get10.m4a"
--
-  signupForm: true
 -
   sectionTitle: "Poder"
 -
@@ -99,8 +113,6 @@ examples:
   audio: "get/Get31.m4a"
   audioSlow: "get/Get32.m4a"
 -
-  signupForm: true
--
   sectionTitle: "Llegar"
 -
   english: "I usually _get_ to the office at nine."
@@ -154,8 +166,6 @@ examples:
   spanish: "He oído que tienen una casa ahora."
   audio: "get/Get51.m4a"
   audioSlow: "get/Get52.m4a"
--
-  signupForm: true
 -
   sectionTitle: "Tener que"
 -
@@ -234,4 +244,11 @@ examples:
   audio: "get/Get79.m4a"
   audioSlow: "get/Get80.m4a"
 -
-  signupForm: true
+  explanation: >
+    Eso es todo por hoy! Si quieres aún más práctica con "Get" y sus muchos significados, escribí un diálogo con audio y transcripción
+    que puedes acceder completamente gratis al introducir tu email abajo:
+-
+  signupFormSmall: true
+-
+  explanation: >
+    Y si tienes alguna duda o comentario, no dudes en enviarme un email a shaun.the.gringo@gmail.com.

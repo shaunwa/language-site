@@ -2,11 +2,24 @@ title: "Homófonos que empiezan con 'A'"
 description: "Hay tantas palabras en inglés que no se pronuncian como se escriben. Como resultado, hay muchas palabras que se escriben diferente pero se pronuncian lo mismo"
 articleNumber: "02"
 permalink: "/homofonos-a"
-ckDataSvForm: "723868"
-ckDataUuid: "1ba932b872"
+ckDataSvForm: "747905"
+ckDataUuid: "c43ad746ba"
+ckDataSvFormSmall: "747907"
+ckDataUuidSmall: "7eda626a4d"
 examples:
 -
+  youtubeVideoId: "viehdbgtwiI"
+-
+  explanation: >
+    El inglés tiene un montón de homófonos - palabras que no se escriben igual pero se pronuncian lo mismo - y esto puede ser un fuente
+    de muchos problemas para los que intentan aprenderlo. En este artículo vamos a mirar todos los homófonos que empiezan con "A":
+-
+  signupForm: true
+-
   sectionTitle: "Ad/Add"
+-
+  explanation: >
+    "Ad" significa "anuncio", como los que se ven en la televisión o en los periodicos:
 -
   english: "I saw an _ad_ in the newspaper."
   spanish: "Vi un anuncio en el periódico."
@@ -22,6 +35,9 @@ examples:
   spanish: "Por qué las revistas tienen tantos anuncios?"
   audio: "homofonos/Homofonos5.m4a"
   audioSlow: "homofonos/Homofonos6.m4a"
+-
+  explanation: >
+    "Add" (con dos "D"s) significa "añadir":
 -
   english: "You have to _add_ more salt."
   spanish: "Necesitas añadir más sal."
@@ -40,6 +56,9 @@ examples:
 -
   sectionTitle: "Air/heir"
 -
+  explanation: >
+    "Air" generalmente se usa con el sentido de "aire":
+-
   english: "I love being outside in the fresh _air_."
   spanish: "Me encanta estar fuera en el aire fresco."
   audio: "homofonos/Homofonos13.m4a"
@@ -54,6 +73,9 @@ examples:
   spanish: "Los humanos necesitamos aire, agua, y alimento para sobrevivir."
   audio: "homofonos/Homofonos17.m4a"
   audioSlow: "homofonos/Homofonos18.m4a"
+-
+  explanation: >
+    Y "heir" significa "heredero". Es una palabra que se usa con frecuencia cuando hablas de familias reales o fortunas:
 -
   english: "Prince Charles is _heir_ to the British throne."
   spanish: "El príncipe Charles es heredero al trono británico."
@@ -72,6 +94,9 @@ examples:
 -
   sectionTitle: "Already/all ready"
 -
+  explanation: >
+    "Already" se usa de la misma manera que "ya":
+-
   english: "The police are _already_ on their way."
   spanish: "La policía ya están de camino."
   audio: "homofonos/Homofonos25.m4a"
@@ -87,15 +112,19 @@ examples:
   audio: "homofonos/Homofonos29.m4a"
   audioSlow: "homofonos/Homofonos30.m4a"
 -
-  english: "The pizzas are _all ready_ to be baked."
-  spanish: "Las pizzas están todas listas para cocinar."
-  audio: "homofonos/Homofonos31.m4a"
-  audioSlow: "homofonos/Homofonos32.m4a"
+  explanation: >
+    "All ready" significa "todo listo" o "todos listos". Aunque suena raro en español
+    cuando se usa en el singular, en inglés se usa así todo el tiempo:
 -
   english: "I’m _all ready_ to leave."
   spanish: "Estoy completamente listo para irme."
   audio: "homofonos/Homofonos33.m4a"
   audioSlow: "homofonos/Homofonos34.m4a"
+-
+  english: "The pizzas are _all ready_ to be baked."
+  spanish: "Las pizzas están todas listas para cocinar."
+  audio: "homofonos/Homofonos31.m4a"
+  audioSlow: "homofonos/Homofonos32.m4a"
 -
   english: "Are we _all ready_ for this?"
   spanish: "Estamos todos listos para esto?"
@@ -103,6 +132,9 @@ examples:
   audioSlow: "homofonos/Homofonos36.m4a"
 -
   sectionTitle: "Aunt/ant"
+-
+  explanation: >
+    "Aunt", que se pronuncia como si el "u" en medio no existiera, significa "tía":
 -
   english: "My _Aunt_ Diane wants to meet you."
   spanish: "Mi tía Diane quiere conocerte."
@@ -119,6 +151,9 @@ examples:
   spanish: "Cuántas tías tienes?"
   audio: "homofonos/Homofonos41.m4a"
   audioSlow: "homofonos/Homofonos42.m4a"
+-
+  explanation: >
+    "Ant" significa "hormiga"
 -
   english: "You just stepped on an _ant_."
   spanish: "Acabas de pisar a una hormiga."
@@ -137,6 +172,9 @@ examples:
 -
   sectionTitle: "Ate/Eight"
 -
+  explanation: >
+    "Ate" es el pasado del verbo "To eat", o "comer":
+-
   english: "I _ate_ so much food in Paris."
   spanish: "Comí tanta comida en París."
   audio: "homofonos/Homofonos49.m4a"
@@ -152,6 +190,9 @@ examples:
   audio: "homofonos/Homofonos53.m4a"
   audioSlow: "homofonos/Homofonos54.m4a"
 -
+  explanation: >
+    Y "eight", que se pronuncia exactamente lo mismo a pesar de su ortografía extraña, significa "ocho":
+-
   english: "There are _eight_ people in my family."
   spanish: "Hay ocho personas en mi familia."
   audio: "homofonos/Homofonos55.m4a"
@@ -166,3 +207,12 @@ examples:
   spanish: "Vámonos a casa a las ocho."
   audio: "homofonos/Homofonos59.m4a"
   audioSlow: "homofonos/Homofonos60.m4a"
+-
+  explanation: >
+    Esos son todos los homófonos por hoy! Si quieres aún más práctica con estas palabras, escribí un diálogo con audio y transcripción
+    que puedes acceder completamente gratis al introducir tu email abajo:
+-
+  signupFormSmall: true
+-
+  explanation: >
+    Y si tienes alguna duda o comentario, no dudes en enviarme un email a shaun.the.gringo@gmail.com.

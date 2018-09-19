@@ -106,18 +106,24 @@ export default withSiteData(() => {
         h(JumbotronSmallText, [
           h(Bold, 'La solución: '), `
           Un gringo con barba y t-shirt que te enseña cómo hablar y entender inglés de verdad.
-          Te suena bien? Lee los articulos, que son llenos de ejemplos y audios para practicar.
+          Te suena bien? Lee los artículos, que son llenos de ejemplos y audios para practicar.
         `]),
         h(ButtonContainer, [
           h(Link, { to: '/articulos' }, [
-            h(Button, 'Ver los articulos'),
+            h(Button, 'Ver los artículos'),
           ]),
         ]),
       ])
     ]),
     h(FatDivider),
     h(ArticleContainer, [
-      h(SignupForm, { title: 'Te gusta gratis?', description: 'Suscríbete para recibir tips, noticias, y ofertas especiales' }),
+      h(SignupForm, {
+        title: 'Quieres practicar con diálogos?',
+        description: `Obtén acceso a diálogos con transcripción y audio, completamente gratis!&nbsp;`,
+        buttonText: `Envíame el enlace`,
+        ckDataSvForm: '747905',
+        ckDataUuid: 'c43ad746ba'
+      }),
     ]),
   ]);
 });

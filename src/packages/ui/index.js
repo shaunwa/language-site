@@ -4,5 +4,7 @@ export * from './Buttons';
 export * from './Icon';
 export * from './NavBar';
 export * from './SignupForm';
+export * from './SignupFormSmall';
 export colors from './colors';
 export * from './Footer';
+export * from './YoutubeVideo';
